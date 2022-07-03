@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>BMI Calculator | By Rachit Pal</title>
+</head>
+
+<body>
+    <main>
+        <div class="h1-div">
+            <h1>BMI Calculator</h1>
+        </div>
+        <div class="container">
+            <input type="number" placeholder="Enter Weight (in Kg)" id="weight">
+        </div>
+        <div class="container">
+            <input type="number" placeholder="Enter Height (in cm)" id="height">
+        </div>
+        <div class="btn">
+            <button onclick="myFunction()">Calculate</button>
+        </div>
+        <div class="res" id="bmi-result-div">
+            <span id="bmi-result"></span>
+        </div>
+        <div class="res" id="bmi-result-div-2">
+            <span id="bmi-result-2"></span>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
