@@ -23,4 +23,4 @@ Normal weight: BMI is 18.5 to 24.9
 Overweight: BMI is 25 to 29.9  
 Obese: BMI is 30 or more  
 
-### Created by [Rachit Pal](https://www.instagram.com/rachitkrpal/)
+#### BMI Calculator is created by [Rachit Pal](https://www.instagram.com/rachitkrpal/)
